@@ -1,0 +1,275 @@
+body
+{
+    background: -webkit-linear-gradient(top, #09C 30%, #FFF 100%);
+    background: -moz-linear-gradient(top, #09C 30%, #FFF 100%);
+    background: -o-linear-gradient(top, #09C 30%, #FFF 100%);
+    background-repeat: no-repeat; 
+}
+
+#botoneliminar
+{
+    width: 10px;
+}
+
+#logo
+{
+    float: left;
+    position: absolute;
+}
+
+.principal
+{
+    position: relative;
+    margin-top: 30px;
+    width: 1000px;
+    height: 600px;
+}
+
+/*Cabeza*/
+
+.contenidoheader
+{
+    position: relative;
+    width: 100%;
+    height: 130px;
+}
+
+.logeo
+{
+    position: relative;
+    width: 450px;
+    height: 40px;
+    float: right;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+.logeo .menulogin
+{
+    list-style:none;
+}
+
+#nombreusuario
+{
+    font-family: Tahoma, Geneva, sans-serif;
+    font-weight:bold;
+    font-size: 20px;
+}
+
+.logeo .menulogin li
+{
+    float: left;
+    margin-left: 10px;
+    margin-top: -10px;
+}
+
+.logeo .menulogin li a
+{
+    display: block;
+    padding: 5px 0px;
+    width: 120px;
+    font-size: 14px;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-weight:bold;   
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    background: -webkit-linear-gradient(bottom, #8E8E8E 30%, #FFF 100%);
+    background: -moz-linear-gradient(top, #3CF 30%, #FFF 100%);
+    background: -o-linear-gradient(top, #3CF 30%, #FFF 100%);
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0px 0px 15px #000;
+    -moz-box-shadow: 0px 0px 15px #000;
+    -webkit-box-shadow: 0px 0px 15px #000;
+    -o-box-shadow: 0px 0px 15px #000;
+}
+
+.logeo .menulogin li a:hover
+{
+    color: white;
+    background: -webkit-linear-gradient(bottom, #7A7A7A 30%, #FFF 100%);
+    background: -moz-linear-gradient(top, #09C 30%, #FFF 100%);
+    background: -o-linear-gradient(top, #09C 30%, #FFF 100%);
+}
+
+.logeo .menulogin li a.active
+{
+    color: white;
+    box-shadow: 0px 0px 5px #FFF;
+    background: -webkit-linear-gradient(top, #09C 30%, #FFF 100%);
+    background: -moz-linear-gradient(top, #09C 30%, #FFF 100%);
+    background: -o-linear-gradient(top, #09C 30%, #FFF 100%);
+    box-shadow: 0px 0px 15px #000;
+    -moz-box-shadow: 0px 0px 15px #000;
+    -webkit-box-shadow: 0px 0px 15px #000;
+    -o-box-shadow: 0px 0px 15px #000;
+}
+
+.navegacion
+{
+    position: relative;
+    width: 100%;
+    height: 40px;
+}
+
+.navegacion .menu
+{
+    list-style:none;
+    margin-left: 75px;
+}
+
+/* Espacio entre los menus de navegacion */
+
+.navegacion .menu li
+{
+    margin-left: 10px;
+    float: left;
+    margin-top: 5px;
+}
+
+.navegacion .menu li a
+{
+    display: block;
+    padding: 5px 0px;
+    width: 181px;
+    font-size: 14px;
+    font-family: Tahoma, Geneva, sans-serif;
+	font-weight:bold;	
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    background: -webkit-linear-gradient(top, #3CF 30%, #FFF 100%);
+    background: -moz-linear-gradient(top, #3CF 30%, #FFF 100%);
+    background: -o-linear-gradient(top, #3CF 30%, #FFF 100%);
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0px 0px 15px #000;
+    -moz-box-shadow: 0px 0px 15px #000;
+    -webkit-box-shadow: 0px 0px 15px #000;
+    -o-box-shadow: 0px 0px 15px #000;
+}
+
+.navegacion .menu li a:hover
+{
+    color: white;
+    background: -webkit-linear-gradient(top, #09C 30%, #FFF 100%);
+    background: -moz-linear-gradient(top, #09C 30%, #FFF 100%);
+    background: -o-linear-gradient(top, #09C 30%, #FFF 100%);
+}
+
+.navegacion .menu li a.active
+{
+    color: white;
+    box-shadow: 0px 0px 5px #FFF;
+    background: -webkit-linear-gradient(top, #09C 30%, #FFF 100%);
+    background: -moz-linear-gradient(top, #09C 30%, #FFF 100%);
+    background: -o-linear-gradient(top, #09C 30%, #FFF 100%);
+    box-shadow: 0px 0px 15px #000;
+    -moz-box-shadow: 0px 0px 15px #000;
+    -webkit-box-shadow: 0px 0px 15px #000;
+    -o-box-shadow: 0px 0px 15px #000;
+}
+
+/* SECCION ARTICULOS */
+
+.contenidoindex, .contenidousuario
+{
+    position: relative;
+    width: 100%;
+    padding:0;
+    height: 340px;
+}
+
+.contenido1 
+{    
+    text-align: justify;
+    font-weight: bold;
+    margin: 10px;     
+    width: 920px;
+    height: 300px;
+    margin-top: 30px;
+    background:#FFF;   
+    overflow: auto;
+    box-shadow: 0px 0px 15px #000;
+    -moz-box-shadow: 0px 0px 15px #000;
+    -webkit-box-shadow: 0px 0px 15px #000;
+    -o-box-shadow: 0px 0px 15px #000;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    -o-border-radius: 10px 10px 10px 10px;
+    padding: 10px 15px 10px 15px;
+}
+
+.contenidologin, .contenidoregistrarse
+{
+    position: relative;
+    width: 100%;
+    padding:0;
+    height: 340px;
+    margin-top: 70px;
+}
+
+.Titulo_Formulario
+{
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 45%;
+}
+
+#mensajesesion
+{
+    font-family: Tahoma, Geneva, sans-serif;
+    font-weight:bold;
+    font-size: 20px;
+}
+
+#imagen_login
+{
+    float: left;
+    margin-top: -50px;
+    margin-left: 130px;
+}
+
+#cuadrologin
+{
+    float: left;
+    margin-top: -35px;
+}
+
+h1, h2, h3, h4, h5, h6, th, button
+{
+    font-family: Verdana;
+}
+
+p, td
+{
+    font-family: Verdana;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+input,select
+{
+    font-family:  Verdana;
+    width: 225px;
+}
+
+.botones_formulario
+{
+    width: 100px;
+}
+
+td a
+{
+    text-decoration: none;
+    color: brown;
+}
+
+/* Pie de Pagina*/
+
+.contenidofooter
+{
+    position: relative; 
+    width: 100%;
+    height: 60px;
+}
